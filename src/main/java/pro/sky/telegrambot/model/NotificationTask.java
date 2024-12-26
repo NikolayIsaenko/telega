@@ -15,7 +15,7 @@ public class NotificationTask {
     @Column(name = "text", nullable = false)
     private String text;
     @Column(name = "notification_date_time", nullable = false)
-    private LocalDateTime notificationDateTime;
+    public LocalDateTime notificationDateTime;
 
     public NotificationTask() {
     }
